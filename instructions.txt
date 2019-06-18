@@ -1,0 +1,26 @@
+1. cd /mnt/c/users/o.gavrilyuk/Documents/MEGAsync	//change wowk directory
+2. dir	//check contents work directory
+3. mkdir java_cursor	//create directory "java_cursor" in work directory
+4. cd /mnt/c/users/o.gavrilyuk/Documents/MEGAsync/java_cursor	//change work directory to "java_cursor"
+5. mkdir hw_1_git	//create directory for first HomeWork 
+5. cd /mnt/c/users/o.gavrilyuk/Documents/MEGAsync/java_cursor/hw_1_git	////change work directory to "hw_1_git"
+6. git init	//add local repository
+7. git status	//check git status
+8. touch hw_1.txt	//create txt file "hw_1.txt"
+9. dir	//check contents work directory
+10. git add hw_1.txt	//add file hw_1.txt to git local repository
+11. git status	//check git status
+12. git commit -m "add file "	//commit changes (adding file "hw_1.txt")
+13. git remote add origin https://github.com/AlexG1987/hw_1_git.git	//initialising connect to remote repository on GitHub
+14. git push -u origin master	//pushing changes to master
+15. git status	//check git status
+16. git branch add_changes_2file	//creating new branch "add_changes_2file"
+17. echo "HomeWork 1 - GIT" > hw_1.txt	//addint changes to file "hw_1.txt"
+18. git add hw_1.txt	//add file hw_1.txt to branch "add_changes_2file"
+19. git add instructions.txt	//add file hw_1.txt to branch "add_changes_2file"
+20. 22. git push -u origin add_changes_2file	//pushing changes to add_changes_2file 
+21. git commit -m "add changes to file hw_1.txt"	//commit changes (adding changes to file "hw_1.txt")
+22. git checkout -	//change brach to master
+23. git merge add_changes_2file	//merge branch add_changes_2file to master
+24. git push -u origin master	//pushing changes to master 
+25. git status	//check git status
